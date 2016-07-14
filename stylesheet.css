@@ -1,0 +1,13 @@
+#background {
+        background-image: url("background.png");
+        display: inline;
+        position: absolute;
+        max-width: 100%;
+        max-height: auto;
+        top: 0;
+        left: 0;
+}
+
+.heading ul {
+        display: inline-block;
+}
