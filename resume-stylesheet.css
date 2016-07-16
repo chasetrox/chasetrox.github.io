@@ -7,4 +7,40 @@
         margin-left: 12.5%;
         margin-right: auto;
         border-radius: 3px;
+        color: #767676;
+}
+
+.area {
+        position: relative;
+}
+
+.area .heading {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        float: left;
+}
+.area .heading h3 {margin: 30% 0px 0px 20%; font-weight: lighter}
+
+.area .content {
+        display: inline-block;
+        width: 70%;
+        height: 100%;
+        float:right;
+        padding: 20px 10px 10px 15px
+}
+
+ul { list-style-type: none; }
+
+.area .content span {
+        font-weight: normal;
+        font-size: 18px;
+}
+
+.divider {
+        position: absolute;
+        width: 90%;
+        left:5%;
+        height:1px;
+        border-top: solid gray 1px;
 }
