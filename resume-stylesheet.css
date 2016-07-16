@@ -12,32 +12,13 @@ html, body {height:100%;}
         color: #767676;
 }
 
-.area {
-        position: relative;
-        display:block;
-        height:auto;
-}
-
-.area .section {
-        position: absolute;
-        display: inline-block;
+.section {
         width: 20%;
-        height: 200px;
-        float: left;
-}
-.area .section h3 {margin: 10% 0px 0px 5%; font-weight: lighter; }
-
-.area .content {
-        display: inline-block;
-        width: 70%;
-        height: 100%;
-        float:right;
-        padding: 20px 10px 10px 15px
 }
 
 ul { list-style-type: none; }
 
-.area .content span {
+.content span {
         font-weight: normal;
         font-size: 18px;
 }
