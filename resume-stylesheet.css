@@ -1,9 +1,11 @@
+html, body {height:100%;}
+
 .container {
         position: absolute;
         background-color: white;
         width: 75%;
         top: 25%;
-        height: 75%;
+        height: auto;
         margin-left: 12.5%;
         margin-right: auto;
         border-radius: 3px;
@@ -12,15 +14,18 @@
 
 .area {
         position: relative;
+        display:block;
+        height:auto;
 }
 
-.area .heading {
+.area .section {
+        position: absolute;
         display: inline-block;
-        width: auto;
-        height: auto;
+        width: 20%;
+        height: 200px;
         float: left;
 }
-.area .heading h3 {margin: 30% 0px 0px 20%; font-weight: lighter}
+.area .section h3 {margin: 10% 0px 0px 5%; font-weight: lighter; }
 
 .area .content {
         display: inline-block;
