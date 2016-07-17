@@ -1,0 +1,9 @@
+.container {
+        position: relative;
+}
+
+.info {
+        height: auto;
+        text-align: center;
+        padding: 25px 8px 25px 8px;
+}

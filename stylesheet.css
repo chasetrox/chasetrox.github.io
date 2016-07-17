@@ -51,15 +51,14 @@ body {
         margin-right: 25%;
         top: 35%;
         width: 50%;
-        height: 64%;
+        height: 50%;
         display: inline;
         border-radius: 3px;
 }
 
 .info img {
-        padding-top: -1px;
         display: block;
-        margin: -80px auto 0px auto;
+        margin: -81px auto 0px auto;
         width: 150px;
         height: auto;
         border: 4px white solid;
